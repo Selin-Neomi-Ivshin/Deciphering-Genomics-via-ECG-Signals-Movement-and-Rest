@@ -38,13 +38,3 @@ _Key steps include:_
 
 
 
-### Files Included:
-1. `search_frontend.py` - contains the method search that will retreive the final ranked list of ('doc_id','title')
-2. `QueryProcessor.py` - contains the query extension (Word2Vec), query preprocess methods for the retrieval results.
-3. `Pagerank_creator.py` - contains the methods used for ranking the documents: using generating of graph with vertices and edegs.
-4. `Pageview_creator.py` - contains Wikipedia pageview data from August 2021 and a dictionary of this pageviews
-5. `Index_title_creator.py` - contains the inverted index of the title and all the methods for using this index in BM-25 algorithm. 
-6. `Index_body_creator.py` - contains the inverted index of the body and all the methods for using this index in BM-25 algorithm. 
-7. `Inverted_index_gcp.py` - contains the inverted index file and all the methods for creating an index.
-8. `Buckets_body_title_bins.txt` - contains the files list from the buckets as required.
-
